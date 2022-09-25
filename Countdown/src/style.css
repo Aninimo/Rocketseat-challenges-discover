@@ -1,0 +1,118 @@
+/*========== RESET ==========*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Poppins,'sans-serif';
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+/*=========== COLORS ============*/
+:root{
+  --black: #4D4C59;
+  --purple: #6C63FF;
+  --light-gray: #C8C8C8;
+  --text-color: #9C9AB6;
+}
+/*===============================*/
+
+.coming-soon{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.countdown{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 6px;
+}
+
+.title{
+  color: var(--purple);
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.n{
+  display: inline-block;
+  color: var(--light-gray);
+  font-size: 15px;
+  text-align: center;
+  margin: 15px;
+  margin-top: 1.5rem;
+}
+
+.day,
+.hour,
+.minute,
+.second{
+  font-size: 30px;
+}
+
+.subtitle{
+  color: var(--text-color);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn{
+  background: var(--purple);
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: .3rem;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 7rem;
+}
+
+.content-img{
+  width: 190px;
+  margin-left: 8rem;
+}
+
+/*========== MODAL ==========*/
+.modal{
+  width: 250px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border: 1px solid var(--purple);
+  display: none;
+  border-radius: .5rem;
+  box-shadow: 10px 5px 5px gray;
+}
+
+.close{
+  border: none;
+  margin-left: 25px;
+  margin-top: 15px;
+  font-size: 20px;
+  background: none;
+  color: var(--purple);
+}
+
+input{
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+.btn__form{
+  position: relative;
+  margin-top: 70px;
+  margin-left: 80px;
+}
