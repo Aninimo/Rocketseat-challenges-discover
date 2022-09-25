@@ -1,0 +1,35 @@
+body{
+  width: 100%;
+  height: 100vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  background: #9FA0FF;
+}
+
+img{
+  width: 150px;
+}
+
+ul{
+  list-style: none;
+}
+
+.container{
+  width: 600px;
+  height: auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: .5rem;
+}
+
+.ingredient{
+  padding-bottom: 1rem;
+}
+
+iframe{
+  height: 150px;
+  width: 250px;
+}
