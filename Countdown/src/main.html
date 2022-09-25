@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Count down</title>
+    <link rel="stylesheet"href="style.css">
+  </head>
+  <body>
+    <section class="coming-soon">
+      <div>
+       <h3 class="title">READY TO LAUNCH IN...</h3>
+       <div class="countdown">
+         <div class="container-day">
+           <p class="n">Day</p>
+           <h3 class="day">time</h3>
+         </div>
+        
+        <div class="container-hour" >
+          <p class="n">Hours</p>
+          <h3 class="hour">time</h3>
+        </div>
+        
+        <div class="container-minutes">
+          <p class="n">Minutes</p>  
+          <h3 class="minute">time</h3>
+        </div>
+        
+        <div class="container-seconds">
+          <p class="n">Seconds</p>
+          <h3 class="second">time</h3>
+        </div>
+      </div>
+
+      <p class="subtitle">Inscreva-se para saber mais sobre o lançamento</p>
+      <button class="btn"onclick="acao()">Inscreva-se</button>
+        </div>
+
+        <div class="content-img">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI_jsPa16folX1HscNdSGcZ6MDlWTo4banOw&usqp=CAU"class="img">
+        </div>
+    </section>
+    <div class="modal">
+      <button onclick="f()"class="close">x</button>
+      <h3 class="subtitle">Inscreva-se</h3>
+      <form>
+        <input type="text"placeholder="Name">
+        <input type="email"placeholder="Email">
+        <button class="btn btn__form">Enviar</button>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
