@@ -1,1 +1,1 @@
-# Rocketseat-challenges-discover
+# Rocketseat-challenges-discover 🚀
