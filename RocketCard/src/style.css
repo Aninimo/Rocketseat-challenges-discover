@@ -1,0 +1,154 @@
+/*========== COLORS ==========*/
+:root{
+  --bg: #000000;
+  --bg-color: #0E1218;
+  --text: #F1F1F1;
+  --img-profile: #8257E5;
+  --buttons: #FFF;
+  --border-button: #1A1A1A;
+}
+
+/*========== RESET ==========*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--border-button);
+  font-family: "Poppins",sans-serif;
+}
+
+ul{
+  list-style: none;
+  color: var(--text);
+}
+
+li{
+  display: flex;
+  padding: 5px;
+}
+
+i{
+  margin-right: 3px;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 650px;
+  border-radius: 4rem;
+  background: var(--bg);
+}
+
+.card{
+  width: 350px;
+  height: 550px;
+  background: var(--bg-color);
+  border-radius: 2rem;
+}
+
+.circle{
+  width: 52px;
+  height: 52px;
+  border: 1px solid var(--text);
+  border-radius: 50%;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.logo{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.user_name{
+  font-size: 30px;
+  margin-left: 15px;
+  margin-top: 20px;
+  color: var(--text);
+}
+
+.circle2{
+  width: 290px;
+  height: 290px;
+  border: 2px solid var(--img-profile);
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-left: 65px;
+}
+
+.image_user{
+  border-radius: 50%;
+}
+
+.info{
+  width: 172px;
+  height: 180px;
+  background: rgb(255,255,255,.1);
+  margin-top: -150px;
+  border-radius: 2rem;
+  padding: 15px;
+  position: absolute;
+  word-spacing: 3px;
+}
+
+.s{
+  margin-left: 8px;
+}
+
+.sub_logo{
+  display: flex;
+  align-items: center;
+  margin-left: 12rem;
+  margin-top: 90px;
+}
+
+.logo-sub{
+  width: 30px;
+  border-radius: 50%;
+}
+
+.rocket{
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--text);
+}
+
+
+.random__color{
+  color: var(--text);
+  margin-left: 70px;
+}
+
+.btn{
+  border: none;
+  padding: 10px 20px;
+  margin-left: 90px;
+  margin-top: 5px;
+  color: var(--text);
+  background: var(--border-button);
+}
